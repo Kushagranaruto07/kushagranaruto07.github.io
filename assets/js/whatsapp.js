@@ -22,7 +22,7 @@ function sendToWhatsApp(event) {
     const whatsappMsg = `New Contact From Portfoilo:%0A Name: ${name}%0A Email: ${email}%0A Subject: ${subject}%0A Message: ${message}`;
     
     // Open WhatsApp
-    const phoneNo = "9198949718005";
+    const phoneNo = "918949718005";
     window.open(`https://wa.me/${phoneNo}?text=${whatsappMsg}`, '_blank');
     
     // Show success message
